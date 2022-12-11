@@ -24,4 +24,10 @@ class ArrayOperationsTest {
     void findAverageValue() {
         assertEquals(3, ArrayOperations.findAverageValue(new int[]{1, 2, 3, 4, 5}));
     }
+
+    @Test
+    @DisplayName("Check email is valid")
+    void isValidEmail() {
+        assertTrue(ArrayOperations.isValidEmail("doseyenc@gmail.com"));
+    }
 }

@@ -28,4 +28,9 @@ public class ArrayOperations {
         }
         return (double) sum / array.length;
     }
+
+    //check email is valid within regex
+    static boolean isValidEmail(String email){
+        return email.matches("^[A-Za-z0-9+_.-]+@(.+)$");
+    }
 }
