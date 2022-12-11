@@ -21,4 +21,11 @@ public class ArrayOperations {
         }
         return maximum;
     }
+    static double findAverageValue(int [] array){
+        int sum = 0;
+        for(int i = 0; i < array.length; i++){
+            sum += array[i];
+        }
+        return (double) sum / array.length;
+    }
 }

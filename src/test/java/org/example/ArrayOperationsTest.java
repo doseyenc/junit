@@ -18,4 +18,10 @@ class ArrayOperationsTest {
     void findMaximumValue() {
         assertEquals(5, ArrayOperations.findMaximumValue(new int[]{1, 2, 3, 4, 5}));
     }
+
+    @Test
+    @DisplayName("Find average value")
+    void findAverageValue() {
+        assertEquals(3, ArrayOperations.findAverageValue(new int[]{1, 2, 3, 4, 5}));
+    }
 }
